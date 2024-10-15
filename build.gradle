@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group = 'attendance-manager'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.xerial:sqlite-jdbc:3.41.2.2'
+}
+
+test {
+    useJUnitPlatform()
+}
